@@ -33,7 +33,7 @@ onload=()=>{
         const { innerWidth, innerHeight } = window;
     
         if (innerWidth < 768) { // Example breakpoint for mobile devices
-            scale = 3; // Adjust this scale factor as needed
+            scale = 2.2; // Adjust this scale factor as needed
         } else if (innerWidth < 1024) { // Example breakpoint for tablets
             scale = 4; // Adjust this scale factor as needed
         } else {
